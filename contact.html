@@ -1,64 +1,65 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me - Shayan's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="phone.css" media="only screen and (max-width: 480px)">
-    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
-    <link rel="stylesheet" href="laptop.css" media="only screen and (min-width: 960px)">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Contact Me - Shayan's Portfolio</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+<link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+<link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
 </head>
 
 <body>
 
-    <header>
-        <h1>Contact Me</h1>
-        <p>Get in touch</p>
-    </header>
+<header>
+<h1>Contact Me</h1>
+<p>Get in touch with me</p>
+</header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-    </nav>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact Me</a></li>
+</ul>
+</nav>
 
-    <main>
-        <article>
-            <h2>Send Me a Message</h2>
-            <p>You can reach me by email or use the form below.</p>
+<main>
+<article>
+<h2>Get in Touch</h2>
+<p>If you would like to contact me about my projects, skills, or opportunities, you can send me a message using the form below.</p>
 
-            <p>
-                Email:
-                <a href="mailto:shayanhussain471@gmail.com">
-                    shayanhussain471@gmail.com
-                </a>
-            </p>
+<form action="mailto:shayanhussain471@gmail.com" method="post" enctype="text/plain">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
 
-            <form action="mailto:shayanhussain471@gmail.com"
-                  method="post" enctype="text/plain">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
 
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
+<label for="subject">Subject:</label>
+<input type="text" id="subject" name="subject" required>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="6" required></textarea>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+<input type="submit" value="Send Message">
+</form>
+</article>
 
-                <input type="submit" value="Send Message">
-            </form>
-        </article>
-    </main>
+<article>
+<h2>Other Contact Information</h2>
+<p>Email: <a href="mailto:shayanhussain471@gmail.com">shayanhussain471@gmail.com</a></p>
+<p>You can email me directly if you prefer.</p>
+</article>
+</main>
 
-    <footer>
-        <p>&copy; 2026 Shayan Hussain. All rights reserved.</p>
-    </footer>
+<footer>
+<p>Email: <a href="mailto:shayanhussain471@gmail.com">shayanhussain471@gmail.com</a></p>
+<p>&copy; 2026 Shayan Hussain. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
