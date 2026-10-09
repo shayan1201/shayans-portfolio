@@ -1,4 +1,4 @@
-
+/* Sets the main font, colours and spacing for the website */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     color: #e6edf7;
     line-height: 1.6;
 }
-
+/* Gives the top of the page a gradient background */
 header {
     background: linear-gradient(135deg, #111a35, #123e62, #542b78);
     color: white;
@@ -23,7 +23,7 @@ header h1 {
 header p {
     color: #c5eaff;
 }
-
+/* Styles the navigation bar and its links */
 nav {
     background-color: #11182b;
     text-align: center;
@@ -59,7 +59,7 @@ nav a:focus {
     outline: 2px solid #00e5ff;
     outline-offset: 4px;
 }
-
+/* Keeps the main content centred on the page */
 main {
     width: 88%;
     max-width: 1100px;
@@ -81,7 +81,7 @@ h2 {
 h3 {
     color: #d6bdff;
 }
-
+/* Adds a gradient background to the content sections */
 section {
     background: linear-gradient(to right, #1b2942, #202c49);
     padding: 18px;
@@ -103,7 +103,7 @@ a {
 a:hover {
     color: #d6bdff;
 }
-
+/* Styles the bottom of each page with contact information */
 a:focus {
     outline: 2px solid #00e5ff;
     outline-offset: 3px;

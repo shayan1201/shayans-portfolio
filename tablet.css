@@ -1,4 +1,4 @@
-
+/* Styles for tablet screen sizes */
 body {
     font-size: 16px;
 }
@@ -24,7 +24,7 @@ nav a {
     display: inline-block;
     padding: 5px;
 }
-
+/* Adjusts the main content width for tablets */
 main {
     width: 90%;
     margin: 25px auto;
@@ -34,7 +34,7 @@ article {
     padding: 22px;
     box-sizing: border-box;
 }
-
+/* Places sections side by side when there is enough space */
 section {
     display: inline-block;
     vertical-align: top;

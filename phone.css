@@ -1,4 +1,4 @@
-
+/* Styles for smaller phone screens */
 body {
     font-size: 14px;
 }
@@ -35,7 +35,7 @@ article {
     padding: 15px;
     box-sizing: border-box;
 }
-
+/* Stacks each section vertically so it fits on a phone */
 section {
     display: block;
     width: 100%;
@@ -58,7 +58,7 @@ video {
     max-width: 100%;
     height: auto;
 }
-
+/* Makes form fields fit the phone screen and stay easy to read */
 input[type="text"],
 input[type="email"],
 textarea {
