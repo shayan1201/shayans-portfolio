@@ -1,0 +1,33 @@
+
+body {
+    font-size: 16px;
+}
+
+header {
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 34px;
+}
+
+nav li {
+    margin: 0 8px;
+}
+
+main {
+    width: 90%;
+    margin: 25px auto;
+}
+
+article {
+    padding: 22px;
+}
+
+section {
+    padding: 16px;
+}
+
+footer {
+    padding: 20px;
+}

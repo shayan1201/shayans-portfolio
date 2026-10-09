@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0b1020;
+    color: #e6edf7;
+}
+
+header {
+    background: linear-gradient(135deg, #111a35, #123e62, #542b78);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 3px solid #00e5ff;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #a9dfff;
+}
+
+nav {
+    background-color: #11182b;
+    text-align: center;
+    padding: 18px 10px;
+    border-bottom: 1px solid #263957;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 12px;
+}
+
+nav a {
+    color: #e6edf7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00e5ff;
+}
+
+main {
+    width: 88%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+article {
+    background-color: #141e33;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #263957;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00e5ff;
+}
+
+h3 {
+    color: #c5a3ff;
+}
+
+section {
+    background-color: #1b2942;
+    padding: 18px;
+    margin: 15px 0;
+    border-left: 3px solid #a855f7;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+section:hover {
+    background-color: #243653;
+    border-left-color: #00e5ff;
+}
+
+a {
+    color: #63dcff;
+}
+
+a:hover {
+    color: #c5a3ff;
+}
+
+footer {
+    background-color: #080d19;
+    color: #a9b8ce;
+    text-align: center;
+    padding: 22px;
+    border-top: 1px solid #263957;
+}
+
+footer a {
+    color: #00e5ff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #a9dfff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #0b1020;
+    color: white;
+    border: 1px solid #36516f;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #00e5ff;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 18px;
+    padding: 12px 22px;
+    background-color: #087e8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #542b78;
+}
