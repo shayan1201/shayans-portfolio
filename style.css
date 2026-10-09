@@ -151,3 +151,22 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #542b78;
 }
+.profile-photo {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #00e5ff;
+    border-radius: 10px;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #00e5ff;
+    border-radius: 8px;
+}
