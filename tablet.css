@@ -11,8 +11,18 @@ header h1 {
     font-size: 34px;
 }
 
+nav ul {
+    padding: 0;
+}
+
 nav li {
-    margin: 0 8px;
+    display: inline-block;
+    margin: 5px 8px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
 }
 
 main {
@@ -22,10 +32,34 @@ main {
 
 article {
     padding: 22px;
+    box-sizing: border-box;
 }
 
 section {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 47%;
+    margin: 1%;
     padding: 16px;
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer {

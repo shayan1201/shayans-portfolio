@@ -11,24 +11,63 @@ header h1 {
     font-size: 28px;
 }
 
+nav ul {
+    padding: 0;
+}
+
 nav li {
     display: inline-block;
-    margin: 8px 5px;
+    margin: 8px 4px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 5px;
 }
 
 main {
     width: 94%;
     margin: 15px auto;
+    box-sizing: border-box;
 }
 
 article {
     padding: 15px;
+    box-sizing: border-box;
 }
 
 section {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
     padding: 12px;
+    box-sizing: border-box;
+}
+
+.profile-photo {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
 footer {
     padding: 15px 8px;
+    overflow-wrap: anywhere;
 }
